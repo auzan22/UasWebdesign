@@ -17,8 +17,7 @@
       echo "File koneksi1.php tidak ditemukan!";
       exit;
     }
-
-    // Routing
+
     if (isset($_GET['kategori'])) {
       include 'file/kategori.php';
     } elseif (isset($_GET['a'])) {
