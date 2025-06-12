@@ -4,13 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Berita</title>
-
-  <!-- CoreUI & Bootstrap -->
+
   <script defer src="https://cdn.jsdelivr.net/npm/@coreui/coreui@5.4.0/dist/js/coreui.bundle.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/@coreui/coreui@5.4.0/dist/css/coreui.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Style -->
+
   <style>
     body {
       margin: 0;
@@ -73,8 +71,7 @@
       cursor: pointer;
       font-size: 16px;
     }
-
-    /* NAVBAR */
+
     .navbar {
       position: fixed;
       top: 60px; /* setelah header */
@@ -98,8 +95,7 @@
     .navbar a:hover {
       color: #ff6600;
     }
-
-    /* BREAKING NEWS */
+
     .breaking-news {
       background: #ff6600;
       color: white;
@@ -120,8 +116,7 @@
       0% { transform: translateX(0%); }
       100% { transform: translateX(-100%); }
     }
-
-    /* CONTENT */
+
     .content {
       margin-top: 170px; /* cukup setelah breaking-news */
       padding: 20px;
@@ -130,7 +125,6 @@
 </head>
 <body>
 
-  <!-- HEADER -->
   <div class="header">
     <div class="logo">
       <img src="image/a.png" alt="Logo" class="logo-img">
@@ -143,8 +137,7 @@
       </form>
     </div>
   </div>
-
-  <!-- NAVBAR -->
+
   <div class="navbar">
     <a href="index.php">HOME</a>
     <a href="index.php?kategori=OLAHRAGA">OLAHRAGA</a>
@@ -154,7 +147,6 @@
     <a href="index.php?kategori=LINGKUNGAN">LINGKUNGAN</a>
   </div>
 
-  <!-- BREAKING NEWS -->
   <div class="breaking-news">
     <span>
       HEADLINE HARI INI: Akan Gelar Piala Dunia Bola Basket Junior, Perbasi Jalin Kerjasama dengan LPDUK Kemenpora • 
